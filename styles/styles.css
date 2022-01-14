@@ -1,3 +1,11 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.aleo {
+  font-family: 'Aleo', serif;
+}
+
 .case-study-image {
   width: 100%;
 }
