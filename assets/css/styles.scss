@@ -1,3 +1,4 @@
+/* Global Styles Start */
 * {
     font-family: 'Roboto', sans-serif;
 }
@@ -17,16 +18,28 @@
 .cyan-color {
     color: #2bcfe2;
 }
+/* Global Styles End */
 
+
+
+/* Clip-Path Polygon Styles Start */
 #we-are-imedia-block {
     padding-bottom: 100px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+}
+
+#industry-expertise-block {
+    padding: 200px 20px;
+    clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 #quote-block {
     padding: 200px 20px;
     clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0% 80%);
 }
+/* Clip-Path Polygon Styles End */
+
+
 
 .carousel-buttons {
     font-size: 30px;

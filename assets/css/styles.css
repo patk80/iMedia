@@ -1,3 +1,4 @@
+/* Global Styles Start */
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -18,10 +19,18 @@
   color: #2bcfe2;
 }
 
+/* Global Styles End */
+/* Clip-Path Polygon Styles Start */
 #we-are-imedia-block {
   padding-bottom: 100px;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
           clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+}
+
+#industry-expertise-block {
+  padding: 200px 20px;
+  -webkit-clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 #quote-block {
@@ -30,6 +39,7 @@
           clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0% 80%);
 }
 
+/* Clip-Path Polygon Styles End */
 .carousel-buttons {
   font-size: 30px;
 }
