@@ -9,4 +9,13 @@
 .case-study-image {
   width: 100%;
 }
+
+#footer-ul,
+#locations-ul {
+  list-style: none;
+}
+
+#footer-ul li {
+  display: inline-block;
+}
 /*# sourceMappingURL=styles.css.map */
