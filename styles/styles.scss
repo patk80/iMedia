@@ -14,6 +14,36 @@
     background-color: #7b0dbc;
 }
 
+.contact-label {
+    display: none;
+}
+
+.contact-input {
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+.contact-textarea {
+    outline: none;
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.contact-button {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 2px 30px;
+}
+
 #footer-ul,
 #locations-ul {
     list-style: none;
