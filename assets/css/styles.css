@@ -22,6 +22,8 @@
 /* Global Styles End */
 /* Clip-Path Polygon Styles Start */
 #we-are-imedia-block {
+  background: -webkit-gradient(linear, left top, right top, from(#35d2f4), to(#85ffdd));
+  background: linear-gradient(to right, #35d2f4, #85ffdd);
   padding-bottom: 100px;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
           clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
