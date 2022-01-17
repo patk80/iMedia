@@ -115,4 +115,13 @@
 #footer-ul li {
   display: inline-block;
 }
+
+/* Media Queries Start */
+@media only screen and (max-width: 800px) {
+  #navbar-imedia-logo {
+    width: 125px;
+  }
+}
+
+/* Media Queries End */
 /*# sourceMappingURL=styles.css.map */
